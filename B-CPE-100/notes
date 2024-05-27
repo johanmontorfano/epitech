@@ -1,0 +1,24 @@
+we tryna find the formula to get the width of the star from the provided size
+by extrapolating it out of the 3 provided example stars (marked $)
+
+star$! (the width formula cannot apply to this star) 1:
+height 5
+width 7
+
+star$ 2:
+height 9
+width 11
+
+star 3:
+height 13
+width 17
+
+star 4:
+height 17
+width 23
+
+star$ 5:
+height 21
+width 29
+
+width(size) = size * 6 - 1
